@@ -34,3 +34,6 @@ class Polygon {
 }
 
 console.log('class test:', new Polygon(4, 3).area)
+
+// html text
+document.getElementById('root').innerHTML = 'Hello World!'

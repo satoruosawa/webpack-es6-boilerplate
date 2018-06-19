@@ -2,4 +2,4 @@
 
 ## Commands
 - `npm run build`
-- `node dist/main.js`
+- `npm run start`
