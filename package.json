@@ -1,0 +1,19 @@
+{
+  "name": "webpack-es6-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satoruosawa/webpack-es6-boilerplate.git"
+  },
+  "author": "Satoru Osawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/satoruosawa/webpack-es6-boilerplate/issues"
+  },
+  "homepage": "https://github.com/satoruosawa/webpack-es6-boilerplate#readme"
+}
