@@ -1,4 +1,4 @@
-export function arrowFunction() {
+export function arrowFunction () {
   const materials = [
     'Hydrogen',
     'Helium',
@@ -8,29 +8,29 @@ export function arrowFunction() {
 
   console.log(
     'arrow function test:',
-    materials.map(material => material.length),
+    materials.map(material => material.length)
   )
 }
 
-export function powerExponent(value) {
+export function powerExponent (value) {
   console.log(
-    'power exponent test: ' + value + ' ** ' + value +' =',
-    value ** value,
+    'power exponent test: ' + value + ' ** ' + value + ' =',
+    value ** value
   )
 }
 
-function resolveAfter2Seconds() {
+function resolveAfter2Seconds () {
   return new Promise(resolve => {
     setTimeout(() => { resolve('resolved') }, 2000)
   })
 }
 
-async function asyncCall() {
+async function asyncCall () {
   console.log('async function test: calling')
   const result = await resolveAfter2Seconds()
   console.log('async function test:', result)
 }
 
-export function asyncFunction() {
+export function asyncFunction () {
   asyncCall()
 }
