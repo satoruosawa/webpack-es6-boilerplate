@@ -1,39 +1,10 @@
-// arrow function
-const materials = [
-  'Hydrogen',
-  'Helium',
-  'Lithium',
-  'Beryllium'
-]
+import sayHello from './hello'
+import * as es6Functions from './Es6Functions'
+import Polygon from './TestClass'
 
-console.log('arrow function test:', materials.map(material => material.length))
+document.getElementById('root').innerHTML = sayHello()
 
-// power exponent
-console.log('power exponent test: 3 ** 3 =', 3 ** 3)
-
-// async function
-function resolveAfter2Seconds() {
-  return new Promise(resolve => {
-    setTimeout(() => { resolve('resolved') }, 2000)
-  })
-}
-
-async function asyncCall() {
-  console.log('calling')
-  const result = await resolveAfter2Seconds()
-  console.log('async function test:', result)
-}
-
-asyncCall()
-
-// class
-class Polygon {
-  constructor(height, width) {
-    this.area = height * width;
-  }
-}
-
+es6Functions.arrowFunction()
+es6Functions.powerExponent(3)
+es6Functions.asyncFunction()
 console.log('class test:', new Polygon(4, 3).area)
-
-// html text
-document.getElementById('root').innerHTML = 'Hello World!'
