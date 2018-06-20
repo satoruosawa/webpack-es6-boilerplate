@@ -1,5 +1,6 @@
 # webpack-es6-boilerplate
 
 ## Commands
-- `npm run build`
-- `npm run start`
+- `npm start` - start the dev server
+- `npm run build` - build in dist folder
+- `npm run lint` - run an 'standard' lint check
