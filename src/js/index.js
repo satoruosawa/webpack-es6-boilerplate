@@ -1,7 +1,7 @@
 import sayHello from './hello'
 import * as es6Functions from './Es6Functions'
 import Polygon from './TestClass'
-import './index.scss'
+import '../css/index.scss'
 
 document.getElementById('root').innerHTML = sayHello()
 
