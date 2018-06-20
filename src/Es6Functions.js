@@ -26,7 +26,7 @@ function resolveAfter2Seconds() {
 }
 
 async function asyncCall() {
-  console.log('calling')
+  console.log('async function test: calling')
   const result = await resolveAfter2Seconds()
   console.log('async function test:', result)
 }
